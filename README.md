@@ -4,8 +4,6 @@ This is a mini deep learning library built from scratch using Python and Numpy. 
 
 It's a hobby project of mine inspired by **Andrej Karpathy's** [micrograd](https://github.com/karpathy/micrograd) and **George Hotz'** (a.k.a. **geohot**) [tinygrad](https://github.com/tinygrad/tinygrad). In terms of complexity, `Autograd Mini` falls somewhere between the above-mentioned projects. Compared to `micrograd`, it makes working with tensors and creating Feed Forward Neural Networks (FNNs) easier, but it is nowhere near as capable *(or as complex)* as `tinygrad`. 
 
-If you are completely new to the topic of Neural Networks and how they work, I **HIGHLY** recommend watching [this outstanding course](https://www.youtube.com/watch?v=VMj-3S1tku0) by Andrej, where he implements a neural network from scratch and provides an exceptional explaination of backpropagation. After watching Andrej's course, you might revisit this current repository to find out how, what you've learned, can be incorporated in a deep learning library and a tiny autograd engine.
-
 ## Current Features
 
 Currently the library supports the following concepts:
@@ -80,7 +78,11 @@ for epoch in range(EPOCHS):
         print(loss.data)
 
 ```
+
 ## Future TODOs
 Currently, the library supports only a few basic operations and network architectures. There are still a lot of "low-hanging fruits" that are still missing (e.g. other activation functions, `.ones()`, `.zeros()`, `.diag()`, etc.), so I might gradually start adding these.
 
 However, what I am more excited about is implementing additional ops from scratch (e.g. RNN, CNN, GRU, etc.), as well as providing GPU support, so that the library allows for more complex architectures and faster training. 
+
+## Are you a complete beginner?
+If you are completely new to the topic of Neural Networks and how they work, I **HIGHLY** recommend watching [this outstanding course](https://www.youtube.com/watch?v=VMj-3S1tku0) by Andrej, where he implements a neural network from scratch and provides an exceptional explaination of backpropagation. After watching Andrej's course, you might revisit this current repository to find out how, what you've learned, can be incorporated in a deep learning library and a tiny autograd engine.
