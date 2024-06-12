@@ -10,7 +10,7 @@ Currently the library supports the following concepts:
 
 - **Tensors**: Multi-dimensional arrays with automatic differentiation capabilities.
 - **Operations**: Basic operations - multiply, dot product, ReLU, Softmax, etc.
-- **Compute Graph and Automatic Differentiation**: Supports the construction of a compute graph and perfoms automatic differentiation during the backward pass of the network.
+- **Compute Graph and Automatic Differentiation**: Supports the construction of a compute graph and performs automatic differentiation during the backward pass of the network.
 - **SGD Optimizer**:  Simple gradient descent optimizer to update model parameters. The optimizer supports similar APIs to Pytorch with methods such as `step()` and `zero_grad()`, making it easy to integrate with the rest of your deep learning pipeline.
 - **Basic Dataset & DataLoader**: Provides a convenient way to load and iterate over your dataset. The Dataset class holds the features and labels, while the DataLoader class handles batch processing and optional data shuffling between epochs.
 
@@ -19,13 +19,13 @@ Currently the library supports the following concepts:
 To use this library, simply clone the repository and install the necessary dependencies.
 
 ```bash
-git clone  
+git clone https://github.com/d-rangelov/autograd_mini  
 cd  
 pip install -r requirements.txt
 ```
 
 ## Usage Example
-- You can find a jupyter notebook with a complete classification example on the MNIST dataset [here](https://github.com/d-rangelov/autograd_mini/).
+- You can find a jupyter notebook with a complete classification example on the MNIST dataset [here](https://github.com/d-rangelov/autograd_mini/blob/master/MNIST%20Example.ipynb).
 
 - For a quick overview of the main functionalities of the library, check the code below:
 
