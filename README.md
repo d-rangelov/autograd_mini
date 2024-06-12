@@ -20,7 +20,7 @@ To use this library, simply clone the repository and install the necessary depen
 
 ```bash
 git clone https://github.com/d-rangelov/autograd_mini  
-cd  
+cd autograd_mini
 pip install -r requirements.txt
 ```
 
